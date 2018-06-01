@@ -8,14 +8,14 @@ Your only source of randomness must be the provided flip() function
 You cannot use Math.random in your implementation
 You can use Google to figure out how to do this
 */
-
 export function randomNumber(n) {
-  if (n >= 1000000 || n <= 0)
-    return "randomNumber Parameter must be between interval: (0, 1000000)";
-  else if (n === 1) return 0;
+  const MAX = 1000000;
+  const MIN = 0;
+  let result = MIN;
+  if (n >= MAX || n <= MIN) return `n must be between: (${MIN}, ${MAX})`;
+  else if (n === MIN + 1) return result;
 
-  let result = 0;
-  let randomBits = Array(n)
+  const randomBits = Array(n)
     .fill(0)
     .map(() => {
       return flip() === true ? 1 : 0;
@@ -23,9 +23,10 @@ export function randomNumber(n) {
     .reduce((previous, current) => {
       return previous + current;
     });
+
   result = randomBits * Date.now();
   result = middleSquares(result);
-  result = Math.floor(result / 1000 * n);
+  result = Math.floor(result / MAX * n);
   return result;
 }
 
@@ -35,7 +36,7 @@ function flip() {
 
 function middleSquares(seed) {
   let result = String(seed * seed);
-  return result.substring(result.length / 2 - 1.5, result.length / 2 + 1.5);
+  return result.substring(result.length / 2 - 3, result.length / 2 + 3);
 }
 
 /*

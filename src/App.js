@@ -34,6 +34,7 @@ class App extends Component {
           </Card>
         </Container>
         <Container>
+          <Card title='n = 1' body={randomNumber(1)} />
           <Card title='n = 2' body={randomNumber(2)} />
           <Card title='n = 3' body={randomNumber(3)} />
           <Card title='n = 4' body={randomNumber(4)} />
@@ -50,6 +51,13 @@ class App extends Component {
           <Card title='n = 100' body={randomNumber(100)} />
           <Card title='n = 200' body={randomNumber(200)} />
           <Card title='n = 300' body={randomNumber(300)} />
+          <Card title='n = 400' body={randomNumber(400)} />
+          <Card title='n = 500' body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title='n = 1000001' body={randomNumber(1000001)} />
+          <Card title='n = 1000000' body={randomNumber(1000000)} />
+          <Card title='n = 999999' body={randomNumber(999999)} />
           <Card title='n = 400' body={randomNumber(400)} />
           <Card title='n = 500' body={randomNumber(500)} />
         </Container>
