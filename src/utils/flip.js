@@ -23,7 +23,7 @@ export function randomNumber(n) {
     .reduce((previous, current) => {
       return previous + current;
     });
-  result = String(randomBits * Date.now());
+  result = randomBits * Date.now();
   result = middleSquares(result);
   result = Math.floor(result / 1000 * n);
   return result;
