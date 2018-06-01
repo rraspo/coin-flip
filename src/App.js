@@ -41,25 +41,16 @@ class App extends Component {
           <Card title='n = 5' body={randomNumber(5)} />
         </Container>
         <Container>
-          <Card title='n = 6' body={randomNumber(6)} />
-          <Card title='n = 7' body={randomNumber(7)} />
-          <Card title='n = 8' body={randomNumber(8)} />
-          <Card title='n = 9' body={randomNumber(9)} />
           <Card title='n = 10' body={randomNumber(10)} />
-        </Container>
-        <Container>
-          <Card title='n = 100' body={randomNumber(100)} />
-          <Card title='n = 200' body={randomNumber(200)} />
-          <Card title='n = 300' body={randomNumber(300)} />
+          <Card title='n = 350' body={randomNumber(350)} />
           <Card title='n = 400' body={randomNumber(400)} />
-          <Card title='n = 500' body={randomNumber(500)} />
+          <Card title='n = 5693' body={randomNumber(5693)} />
+          <Card title='n = 49850' body={randomNumber(49850)} />
         </Container>
         <Container>
-          <Card title='n = 1000001' body={randomNumber(1000001)} />
-          <Card title='n = 1000000' body={randomNumber(1000000)} />
           <Card title='n = 999999' body={randomNumber(999999)} />
-          <Card title='n = 400' body={randomNumber(400)} />
-          <Card title='n = 500' body={randomNumber(500)} />
+          <Card title='n = 1000000' body={randomNumber(1000000)} />
+          <Card title='n = 1000001' body={randomNumber(1000001)} />
         </Container>
       </div>
     );
