@@ -1,1 +1,1 @@
-export { randomNumber } from './randomNumber';
+export { randomNumber } from './flip';
