@@ -10,9 +10,253 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        
+        <h1 className="App-title">Random number generator</h1>
+        <Container>
+          <Card title="n=1" body={randomNumber(1)} />
+          <Card title="n=1" body={randomNumber(1)} />
+          <Card title="n=1" body={randomNumber(1)} />
+          <Card title="n=1" body={randomNumber(1)} />
+          <Card title="n=1" body={randomNumber(1)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
+        <Container>
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+          <Card title="n=500" body={randomNumber(500)} />
+        </Container>
       </div>
     );
   }
