@@ -1,0 +1,19 @@
+.card {
+  width: 100px;
+  height: 80px;
+  margin: 10px;
+  border: lightgray 1px solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.title,
+.body {
+  margin: 0;
+}
+.body {
+  color: gray;
+  font-size: 15px;
+}
