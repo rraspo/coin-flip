@@ -7,13 +7,16 @@ import { randomNumber } from './utils';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      counter: 0
+    };
     this.refresh = this.refresh.bind(this);
   }
 
   refresh() {
-    console.log('clicked');
-    this.setState(this.state);
+    this.setState(prevState => {
+      return { counter: prevState.counter + 1 };
+    });
   }
 
   render() {
@@ -31,7 +34,6 @@ class App extends Component {
           </Card>
         </Container>
         <Container>
-          <Card title='n = 1' body={randomNumber(1)} />
           <Card title='n = 2' body={randomNumber(2)} />
           <Card title='n = 3' body={randomNumber(3)} />
           <Card title='n = 4' body={randomNumber(4)} />

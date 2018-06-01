@@ -15,19 +15,27 @@ export function randomNumber(n) {
   else if (n === 1) return 0;
 
   let result = 0;
-  const nBinary = n.toString(2);
-  let randomBits = Array(nBinary.length)
+  let randomBits = Array(n)
     .fill(0)
     .map(() => {
       return flip() === true ? 1 : 0;
+    })
+    .reduce((previous, current) => {
+      return previous + current;
     });
-  result = parseInt(randomBits.join(""), 2) & n;
-  if (result === n) result -= 1;
+  result = String(randomBits * Date.now());
+  result = middleSquares(result);
+  result = Math.floor(result / 1000 * n);
   return result;
 }
 
 function flip() {
   return Math.random() >= 0.5;
+}
+
+function middleSquares(seed) {
+  let result = String(seed * seed);
+  return result.substring(result.length / 2 - 1.5, result.length / 2 + 1.5);
 }
 
 /*
